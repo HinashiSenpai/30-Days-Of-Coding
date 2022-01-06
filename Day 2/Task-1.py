@@ -1,0 +1,5 @@
+a=float(input("Principle Amount"))
+b=float(input("Rate Of Interest"))
+c=float(input("Time In Years"))
+ci =  a * (pow((1 + b / 100), c)) 
+print(ci)
